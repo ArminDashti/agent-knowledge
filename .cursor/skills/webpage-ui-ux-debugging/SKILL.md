@@ -1,5 +1,5 @@
 ---
-name: webpage-debugging
+name: webpage-ui-ux-debugging
 description: Reviews a list of UI pages, inspects each one, and for messy pages writes a per-page improvement prompt with issues and problems to ./.argent/webpage-debugging/<UUID>.md at the project root. Use when the user gives page names, routes, or URLs to audit, asks to review messy UI, generate UI fix proposals, or create prompts for page cleanup.
 ---
 
@@ -12,7 +12,7 @@ description: Reviews a list of UI pages, inspects each one, and for messy pages 
 - Inspection: prefer live browser view (snapshot + screenshot); fall back to markup/source when the app is not running
 - Judgment baseline: [webpageui-standard.md](webpageui-standard.md) checklist; compare each page to two similar sibling pages in the same app
 - Exclusions: backend-only APIs, SSRS data logic, writing fix prompts for pages that pass the audit, implementing fixes (proposal only)
-- Related skills: `webpage-standards`, `browser-automation`, `webpage-debugging-to-solutions`, `add-preference-to-webpageui-standard`
+- Related skills: `webpage-standards`, `browser-automation`, `webpage-debugging-to-solutions`, `add-webpageui-preference`
 
 ## Objectives
 
@@ -165,9 +165,9 @@ UI page audit complete:
 | UUID | New GUID per messy page; never reuse |
 | Messy threshold | ≥2 failed webpageui-standard categories, or clear divergence from siblings |
 | Inspection tools | `browser-automation` MCP (`browser_navigate`, `browser_snapshot`, `browser_screenshot`) |
-| Quality baseline | [webpageui-standard.md](webpageui-standard.md) (lookup + audit checklist; preferences in `../add-preference-to-webpageui-standard/preferences/`) |
+| Quality baseline | [webpageui-standard.md](webpageui-standard.md) (lookup + audit checklist; preferences in `../add-webpageui-preference/preferences/`) |
 | Downstream skill | `webpage-debugging-to-solutions` |
-| Related skills | `webpage-standards`, `browser-automation`, `webpage-debugging-to-solutions`, `add-preference-to-webpageui-standard` |
+| Related skills | `webpage-standards`, `browser-automation`, `webpage-debugging-to-solutions`, `add-webpageui-preference` |
 
 ### Trigger phrases
 

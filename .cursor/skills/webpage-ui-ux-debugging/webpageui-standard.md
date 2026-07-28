@@ -137,7 +137,7 @@ UI standards verification:
 
 ## User preferences
 
-Lookup table for captured likes/dislikes. Each preference lives in its own file under `.cursor/skills/add-preference-to-webpageui-standard/preferences/`. These override defaults in this file when they conflict (accessibility baseline still holds). Maintain with `add-preference-to-webpageui-standard`.
+Lookup table for captured likes/dislikes. Each preference lives in its own file under `.cursor/skills/add-webpageui-preference/preferences/`. These override defaults in this file when they conflict (accessibility baseline still holds). Maintain with `add-webpageui-preference`.
 
 | Title | Category | Standard | File |
 |-------|----------|----------|------|
@@ -147,6 +147,6 @@ Lookup table for captured likes/dislikes. Each preference lives in its own file 
 | Item | Path |
 |------|------|
 | Parent skill | `.cursor/skills/webpage-debugging/SKILL.md` |
-| Capture preference skill | `.cursor/skills/add-preference-to-webpageui-standard/SKILL.md` |
-| Preferences directory | `.cursor/skills/add-preference-to-webpageui-standard/preferences/` |
+| Capture preference skill | `.cursor/skills/add-webpageui-preference/SKILL.md` |
+| Preferences directory | `.cursor/skills/add-webpageui-preference/preferences/` |
 | Full standards skill | `.cursor/skills/webpage-standards/SKILL.md` |
